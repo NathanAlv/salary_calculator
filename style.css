@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "title";
+    src: url(./fonts/Righteous-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: "regular";
+    src: url(./fonts/ChakraPetch-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-image: url(./img/Wallpaper.jpg) ;
+  }
+  
+  #container {
+    width: 60%;
+    margin: 30px auto;
+    font-family: "regular";
+    padding: 10px;
+  }
+
+  #header h1 {
+    margin: 0%;
+    text-align: center;
+    font-family: "title";
+    color: ivory;
+  }
+
+  #header h4{
+      color: ivory;
+      text-align: center;
+      font-family: "title";
+  }
+
+  #container h1{
+      color: ivory;
+      text-align: center;
+      font-family: "title";
+  }
+  
+  #loan-form {
+    margin: auto;
+    margin-top: 20%;
+    width: 60%;
+  }
+
+  
+  
+  #loan-form button {
+    color: ivory;
+    font-family: "title";
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .form-input {
+    color: ivory;
+    display: flex;
+    width: 70%;
+    margin: 0 auto 10px auto;
+  }
+  
+  .form-input input {
+    text-align: right;
+    font-family: "regular";
+    margin-left: auto;
+  }
+  
+  .form-input select {
+    text-align: center;
+    font-family: "regular";
+    margin-left: auto;
+  }
+  
+  #width-type {
+    width: 250px;
+  }
+  
+  #length-tipe {
+    width: 97px;
+  }
+  
+  #price-type {
+    width: 183px;
+  }
+  
+  #button-area {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #result {
+    color: ivory;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    font-family: "title";
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    #container {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 150%;
+    }
+  
+    #loan-form {
+      width: 100%;
+    }
+  
+    .form-input {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .form-input input, 
+    .form-input select {
+      margin: auto;
+      text-align: center;
+      font-size: 120%;
+    }
+  
+    .form-input label,
+    #button-area button,
+    #result {
+      font-size: 120%;
+    }
+  
+  
+  }
